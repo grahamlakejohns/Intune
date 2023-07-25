@@ -1,6 +1,6 @@
 ﻿# Get script details
 $PSScriptPath = $MyInvocation.MyCommand.Definition
-$PSScriptName = (Get-Item -Path $PSScriptPath).BaseName
+$PSScriptName = 'Remove-AccessRuleOnSystemDrive'
 
 # Set log file path
 $LogPath = "$env:SystemRoot\Logs\PSScripts"
